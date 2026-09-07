@@ -45,9 +45,9 @@ from ultralytics import YOLO  # noqa: E402
 # -----------------------------------------------------------------------------
 
 BASELINE_MODEL = ROOT / "exports" / "bottle_keyboard_yolo11n_best.pt"
-EXPANDED_MODEL = BASELINE_MODEL  # V1 snapshot: use baseline for every default model action.
+EXPANDED_MODEL = ROOT / "exports" / "bottle_keyboard_yolo11n_expanded_best.pt"
 DATA_V1 = ROOT / "data.yaml"
-DATA_V2 = DATA_V1  # V1 snapshot contains only the original dataset configuration.
+DATA_V2 = ROOT / "data_v2.yaml"
 CAMERA_OUTPUT_DIR = ROOT / "runs" / "camera_test"
 
 TARGETS = {

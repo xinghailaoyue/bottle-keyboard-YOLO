@@ -15,7 +15,7 @@ from ultralytics import YOLO
 
 
 ROOT = Path(__file__).resolve().parent
-DEFAULT_MODEL = ROOT / "exports" / "bottle_keyboard_yolo11n_best.pt"
+DEFAULT_MODEL = ROOT / "exports" / "bottle_keyboard_yolo11n_expanded_best.pt"
 OUTPUT_DIR = ROOT / "runs" / "camera_test"
 
 

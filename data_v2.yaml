@@ -1,0 +1,7 @@
+path: dataset_v2
+train: images/train
+val: images/val
+
+names:
+  0: bottle
+  1: keyboard

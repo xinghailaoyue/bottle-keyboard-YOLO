@@ -1,0 +1,25 @@
+{
+  "images": {
+    "train": 479,
+    "val": 120
+  },
+  "total_images": 599,
+  "objects": {
+    "bottle": 629,
+    "keyboard": 266
+  },
+  "hard_negative_images": 60,
+  "requested_roles": {
+    "bottle": 300,
+    "keyboard": 240,
+    "person_negative": 60
+  },
+  "unique_selected_images": 599,
+  "acquisition": {
+    "baseline-copy": 235,
+    "download": 364
+  },
+  "failed_downloads": 0,
+  "val_fraction": 0.2,
+  "seed": 84
+}

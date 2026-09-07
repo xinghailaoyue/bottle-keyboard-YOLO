@@ -79,10 +79,10 @@ from ultralytics import YOLO  # noqa: E402
 
 # 两个权重分别代表扩充前基线模型和扩充数据后再训练的模型。
 BASELINE_MODEL = ROOT / "exports" / "bottle_keyboard_yolo11n_best.pt"
-EXPANDED_MODEL = BASELINE_MODEL  # V1快照尚未产生V2，默认继续使用基线模型。
+EXPANDED_MODEL = ROOT / "exports" / "bottle_keyboard_yolo11n_expanded_best.pt"
 # data.yaml 描述训练/验证图片目录和类别名称；V2 对应扩充后的数据集。
 DATA_V1 = ROOT / "data.yaml"
-DATA_V2 = DATA_V1  # V1快照只包含第一版数据配置。
+DATA_V2 = ROOT / "data_v2.yaml"
 # 摄像头截图、录像和运行报告的默认保存位置。
 CAMERA_OUTPUT_DIR = ROOT / "runs" / "camera_test"
 

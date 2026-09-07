@@ -1,0 +1,16 @@
+.venv/
+.ultralytics/
+__pycache__/
+*.pyc
+*.pyo
+*.cache
+runs/
+dataset/
+dataset_v2/
+dataset_v3/
+*.engine
+*.onnx
+
+# Keep the three small published .pt files under exports/.
+!exports/
+!exports/*.pt

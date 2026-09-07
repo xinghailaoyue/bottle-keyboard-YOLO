@@ -1,0 +1,16 @@
+{
+  "images": {
+    "train": 288,
+    "val": 72
+  },
+  "objects": {
+    "bottle": 374,
+    "keyboard": 194
+  },
+  "failed_downloads": 0,
+  "selection": {
+    "max_per_class": 180,
+    "val_fraction": 0.2,
+    "seed": 42
+  }
+}

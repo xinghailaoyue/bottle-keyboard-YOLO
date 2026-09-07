@@ -1,0 +1,7 @@
+ultralytics==8.4.127
+opencv-python==5.0.0
+Pillow==12.3.0
+numpy==2.5.2
+
+# Install a PyTorch build suitable for your CPU/CUDA environment first:
+# https://pytorch.org/get-started/locally/

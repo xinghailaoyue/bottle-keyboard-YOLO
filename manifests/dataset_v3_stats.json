@@ -1,0 +1,29 @@
+{
+  "total_images": 1000,
+  "images": {
+    "train": 800,
+    "val": 200
+  },
+  "source_images": {
+    "Open Images V2 retained": 599,
+    "COCO 2017 train added": 401
+  },
+  "coco_selection_roles": {
+    "horizontal_bottle": 280,
+    "keyboard": 80,
+    "person_negative": 41
+  },
+  "coco_added_objects": {
+    "bottle": 883,
+    "keyboard": 111
+  },
+  "horizontal_selection": {
+    "minimum_width_height_ratio": 1.5,
+    "minimum_box_width_pixels": 40.0,
+    "minimum_box_height_pixels": 15.0,
+    "minimum_box_area_fraction": 0.005
+  },
+  "val_fraction_for_new_coco_images": 0.2,
+  "seed": 20260901,
+  "annotation_source": "COCO 2017 instances_train2017.json"
+}

@@ -1,0 +1,1385 @@
+{
+  "dataset": "COCO 2017 train, held-out V3 horizontal_bottle validation subset",
+  "images": 56,
+  "confidence": 0.25,
+  "match_iou": 0.5,
+  "models": {
+    "v1_baseline": {
+      "weights": "E:\\YOLO\\exports\\bottle_keyboard_yolo11n_best.pt",
+      "images_with_bottle_detection": 13,
+      "detection_rate": 0.232143,
+      "images_matched_at_iou": 7,
+      "matched_rate": 0.125,
+      "mean_best_iou": 0.106705,
+      "keyboard_false_boxes": 6,
+      "per_image": [
+        {
+          "image": "coco_train2017_000000014629.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000024072.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000036544.jpg",
+          "has_bottle_detection": true,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.466202,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000038730.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000052619.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000072605.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000077377.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000085944.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000090707.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000099115.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000100850.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000101348.jpg",
+          "has_bottle_detection": true,
+          "matched": false,
+          "best_iou": 0.025646,
+          "best_confidence": 0.454653,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000108803.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.709243,
+          "best_confidence": 0.463219,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000123473.jpg",
+          "has_bottle_detection": true,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.315679,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000132494.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.939181,
+          "best_confidence": 0.960216,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000133071.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000134144.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000162735.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000166959.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000171199.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.85661,
+          "best_confidence": 0.725169,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000186927.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000192236.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000198426.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000209930.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 1
+        },
+        {
+          "image": "coco_train2017_000000211927.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000236323.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.798385,
+          "best_confidence": 0.299734,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000257392.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000278449.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.889165,
+          "best_confidence": 0.482398,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000294297.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.891152,
+          "best_confidence": 0.882493,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000307721.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000318251.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000347884.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000357668.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000359908.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000389974.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 2
+        },
+        {
+          "image": "coco_train2017_000000391320.jpg",
+          "has_bottle_detection": true,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.418465,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000400809.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.866076,
+          "best_confidence": 0.495623,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000413324.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000419410.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000429111.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 1
+        },
+        {
+          "image": "coco_train2017_000000441325.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000442926.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 1
+        },
+        {
+          "image": "coco_train2017_000000449976.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000452909.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000458721.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000461600.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 1
+        },
+        {
+          "image": "coco_train2017_000000463913.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000475043.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000506964.jpg",
+          "has_bottle_detection": true,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.609745,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000517453.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000519124.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000531510.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000533042.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000539475.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000546091.jpg",
+          "has_bottle_detection": true,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.940042,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000555843.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        }
+      ]
+    },
+    "v2_expanded": {
+      "weights": "E:\\YOLO\\exports\\bottle_keyboard_yolo11n_expanded_best.pt",
+      "images_with_bottle_detection": 12,
+      "detection_rate": 0.214286,
+      "images_matched_at_iou": 6,
+      "matched_rate": 0.107143,
+      "mean_best_iou": 0.092853,
+      "keyboard_false_boxes": 6,
+      "per_image": [
+        {
+          "image": "coco_train2017_000000014629.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000024072.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000036544.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000038730.jpg",
+          "has_bottle_detection": true,
+          "matched": false,
+          "best_iou": 0.041391,
+          "best_confidence": 0.793182,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000052619.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000072605.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 1
+        },
+        {
+          "image": "coco_train2017_000000077377.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000085944.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000090707.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 1
+        },
+        {
+          "image": "coco_train2017_000000099115.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000100850.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000101348.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000108803.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.706098,
+          "best_confidence": 0.557855,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000123473.jpg",
+          "has_bottle_detection": true,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.548406,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000132494.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.939782,
+          "best_confidence": 0.976119,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000133071.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000134144.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000162735.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 1
+        },
+        {
+          "image": "coco_train2017_000000166959.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000171199.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.767961,
+          "best_confidence": 0.611127,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000186927.jpg",
+          "has_bottle_detection": true,
+          "matched": false,
+          "best_iou": 0.053594,
+          "best_confidence": 0.42928,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000192236.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000198426.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000209930.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000211927.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000236323.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.848153,
+          "best_confidence": 0.465035,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000257392.jpg",
+          "has_bottle_detection": true,
+          "matched": false,
+          "best_iou": 0.059019,
+          "best_confidence": 0.302986,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000278449.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000294297.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000307721.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000318251.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000347884.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.898421,
+          "best_confidence": 0.260126,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000357668.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000359908.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000389974.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 1
+        },
+        {
+          "image": "coco_train2017_000000391320.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000400809.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.885342,
+          "best_confidence": 0.879653,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000413324.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000419410.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000429111.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 1
+        },
+        {
+          "image": "coco_train2017_000000441325.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000442926.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000449976.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000452909.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000458721.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000461600.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 1
+        },
+        {
+          "image": "coco_train2017_000000463913.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000475043.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000506964.jpg",
+          "has_bottle_detection": true,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.521731,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000517453.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000519124.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000531510.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000533042.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000539475.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000546091.jpg",
+          "has_bottle_detection": true,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.826801,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000555843.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        }
+      ]
+    },
+    "v3_horizontal": {
+      "weights": "E:\\YOLO\\exports\\bottle_keyboard_yolo11n_horizontal_v3_best.pt",
+      "images_with_bottle_detection": 38,
+      "detection_rate": 0.678571,
+      "images_matched_at_iou": 26,
+      "matched_rate": 0.464286,
+      "mean_best_iou": 0.39896,
+      "keyboard_false_boxes": 2,
+      "per_image": [
+        {
+          "image": "coco_train2017_000000014629.jpg",
+          "has_bottle_detection": true,
+          "matched": false,
+          "best_iou": 0.458076,
+          "best_confidence": 0.271241,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000024072.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.722864,
+          "best_confidence": 0.801556,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000036544.jpg",
+          "has_bottle_detection": true,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.312215,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000038730.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000052619.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000072605.jpg",
+          "has_bottle_detection": true,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.274117,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000077377.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.811962,
+          "best_confidence": 0.603093,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000085944.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000090707.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.835276,
+          "best_confidence": 0.702246,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000099115.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.932628,
+          "best_confidence": 0.879857,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000100850.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.909433,
+          "best_confidence": 0.597386,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000101348.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000108803.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.641155,
+          "best_confidence": 0.948169,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000123473.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 1
+        },
+        {
+          "image": "coco_train2017_000000132494.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.797283,
+          "best_confidence": 0.918367,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000133071.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000134144.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.603226,
+          "best_confidence": 0.783337,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000162735.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.864425,
+          "best_confidence": 0.602873,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000166959.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000171199.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.850491,
+          "best_confidence": 0.792423,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000186927.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.87832,
+          "best_confidence": 0.716683,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000192236.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000198426.jpg",
+          "has_bottle_detection": true,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.252241,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000209930.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000211927.jpg",
+          "has_bottle_detection": true,
+          "matched": false,
+          "best_iou": 0.489552,
+          "best_confidence": 0.332462,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000236323.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.869159,
+          "best_confidence": 0.708301,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000257392.jpg",
+          "has_bottle_detection": true,
+          "matched": false,
+          "best_iou": 0.073559,
+          "best_confidence": 0.554,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000278449.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.855441,
+          "best_confidence": 0.879299,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000294297.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.87475,
+          "best_confidence": 0.751169,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000307721.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000318251.jpg",
+          "has_bottle_detection": true,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.320974,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000347884.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.887222,
+          "best_confidence": 0.347818,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000357668.jpg",
+          "has_bottle_detection": true,
+          "matched": false,
+          "best_iou": 0.039732,
+          "best_confidence": 0.26336,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000359908.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.6709,
+          "best_confidence": 0.518191,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000389974.jpg",
+          "has_bottle_detection": true,
+          "matched": false,
+          "best_iou": 0.390193,
+          "best_confidence": 0.250866,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000391320.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.721539,
+          "best_confidence": 0.418324,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000400809.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.960844,
+          "best_confidence": 0.626304,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000413324.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000419410.jpg",
+          "has_bottle_detection": true,
+          "matched": false,
+          "best_iou": 0.005564,
+          "best_confidence": 0.715446,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000429111.jpg",
+          "has_bottle_detection": true,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.445124,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000441325.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000442926.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000449976.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000452909.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.638225,
+          "best_confidence": 0.842047,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000458721.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.876728,
+          "best_confidence": 0.934836,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000461600.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 1
+        },
+        {
+          "image": "coco_train2017_000000463913.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.7866,
+          "best_confidence": 0.37876,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000475043.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000506964.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.851915,
+          "best_confidence": 0.942562,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000517453.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.774224,
+          "best_confidence": 0.503713,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000519124.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.671494,
+          "best_confidence": 0.562695,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000531510.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000533042.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.824254,
+          "best_confidence": 0.510891,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000539475.jpg",
+          "has_bottle_detection": true,
+          "matched": true,
+          "best_iou": 0.774714,
+          "best_confidence": 0.482251,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000546091.jpg",
+          "has_bottle_detection": true,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.643087,
+          "keyboard_false_boxes": 0
+        },
+        {
+          "image": "coco_train2017_000000555843.jpg",
+          "has_bottle_detection": false,
+          "matched": false,
+          "best_iou": 0.0,
+          "best_confidence": 0.0,
+          "keyboard_false_boxes": 0
+        }
+      ]
+    }
+  }
+}

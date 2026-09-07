@@ -1,0 +1,28 @@
+{
+  "v2": {
+    "weights": "E:\\YOLO\\exports\\bottle_keyboard_yolo11n_expanded_best.pt",
+    "negative_images": 60,
+    "confidence": 0.25,
+    "images_with_any_false_detection": 4,
+    "images_with_false_detection_by_class": {
+      "bottle": 3,
+      "keyboard": 1
+    },
+    "false_detection_boxes_by_class": {
+      "bottle": 3,
+      "keyboard": 1
+    }
+  },
+  "v3": {
+    "weights": "E:\\YOLO\\exports\\bottle_keyboard_yolo11n_horizontal_v3_best.pt",
+    "negative_images": 60,
+    "confidence": 0.25,
+    "images_with_any_false_detection": 2,
+    "images_with_false_detection_by_class": {
+      "bottle": 2
+    },
+    "false_detection_boxes_by_class": {
+      "bottle": 2
+    }
+  }
+}

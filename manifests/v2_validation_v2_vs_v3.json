@@ -1,0 +1,75 @@
+{
+  "evaluation_dataset": "E:\\YOLO\\data_v2.yaml",
+  "models": {
+    "v2": {
+      "weights": "E:\\YOLO\\exports\\bottle_keyboard_yolo11n_expanded_best.pt",
+      "all": {
+        "precision": 0.924034,
+        "recall": 0.665792,
+        "map50": 0.77508,
+        "map50_95": 0.639281
+      },
+      "classes": {
+        "bottle": {
+          "precision": 0.876243,
+          "recall": 0.53913,
+          "map50": 0.650532,
+          "map50_95": 0.556438
+        },
+        "keyboard": {
+          "precision": 0.971826,
+          "recall": 0.792453,
+          "map50": 0.899628,
+          "map50_95": 0.722124
+        }
+      }
+    },
+    "v3": {
+      "weights": "E:\\YOLO\\exports\\bottle_keyboard_yolo11n_horizontal_v3_best.pt",
+      "all": {
+        "precision": 0.926412,
+        "recall": 0.67403,
+        "map50": 0.760929,
+        "map50_95": 0.512733
+      },
+      "classes": {
+        "bottle": {
+          "precision": 0.941084,
+          "recall": 0.555607,
+          "map50": 0.670016,
+          "map50_95": 0.425424
+        },
+        "keyboard": {
+          "precision": 0.911739,
+          "recall": 0.792453,
+          "map50": 0.851842,
+          "map50_95": 0.600042
+        }
+      }
+    }
+  },
+  "deltas_vs_first": {
+    "v3": {
+      "all": {
+        "precision": 0.002378,
+        "recall": 0.008238,
+        "map50": -0.014151,
+        "map50_95": -0.126548
+      },
+      "classes": {
+        "bottle": {
+          "precision": 0.064841,
+          "recall": 0.016477,
+          "map50": 0.019484,
+          "map50_95": -0.131014
+        },
+        "keyboard": {
+          "precision": -0.060087,
+          "recall": 0.0,
+          "map50": -0.047786,
+          "map50_95": -0.122082
+        }
+      }
+    }
+  }
+}
